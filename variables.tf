@@ -1,4 +1,3 @@
-#Require variables###############################################################################
 variable "name" {
   description = "(Required) Name of the Bastion"
   type        = string
