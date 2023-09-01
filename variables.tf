@@ -49,31 +49,31 @@ variable "logging_retention" {
 
 variable "copy_paste_enabled" {
   description = "(Optional) refer to resource provider for usage"
-  default     = null
+  default     = true
   type        = bool
 }
 
 variable "file_copy_enabled" {
   description = "(Optional) refer to resource provider for usage"
-  default     = null
+  default     = false
   type        = bool
 }
 
 variable "ip_connect_enabled" {
   description = "(Optional) refer to resource provider for usage"
-  default     = null
+  default     = false
   type        = bool
 }
 
 variable "shareable_link_enabled" {
   description = "(Optional) refer to resource provider for usage"
-  default     = null
+  default     = false
   type        = bool
 }
 
 variable "tunneling_enabled" {
   description = "(Optional) refer to resource provider for usage"
-  default     = null
+  default     = true
   type        = bool
 }
 
